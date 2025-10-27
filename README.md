@@ -1,4 +1,5 @@
 # CURE: Counterfactual Understanding via Retrieval-aware Multimodal Modeling for Time-to-Event Survival Prediction
+![The model's architecture](assets/model.png)
 This repository contains the official implementation of the paper:
 > **Counterfactual Understanding via Retrieval-aware Multimodal Modeling for Time-to-Event Survival Prediction**  
 > *Submitted to ECIR 2026 (IR for Good Track, 48th European Conference on Information Retrieval)*
