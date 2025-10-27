@@ -11,5 +11,4 @@ seaborn
 numba
 #import: auton_survival
 auton-survival @ git+https://github.com/autonlab/auton-survival.git@v0.1.0
-#import:  mult
-mult @ git+https://github.com/nhhaanh2312/Multimodal-Transformer.git@v0.1.0
+
