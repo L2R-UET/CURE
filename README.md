@@ -28,7 +28,7 @@ CURE builds upon several strong research foundations:
 ## Setup
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/L2R-UET/MAMEX.git
+git clone https://github.com/L2R-UET/CURE.git
 cd CURE
 pip install -r requirements.txt
 ```
