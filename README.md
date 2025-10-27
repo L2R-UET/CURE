@@ -4,11 +4,11 @@ This repository contains the official implementation of the paper:
 > *Submitted to ECIR 2026 (IR for Good Track, 48th European Conference on Information Retrieval)*
 ---
 ## Table of Contents
-- Overview
-- Key Features
-- Setup
-- Data Preparation
-- Set up
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Setup](#setup)
+- [Data Preparation](#data-preparation)
+- [Training](#training)
 ---
 ## Overview
 This project introduces CURE, a retrieval-aware multimodal framework for counterfactual survival prediction.
@@ -25,6 +25,14 @@ CURE builds upon several strong research foundations:
 - Adaptive Mixture-of-Experts (MoE-AE): Enhances representation diversity and prevents overfitting in high-dimensional omics data.
 - Survival Estimation via CMHE: Models both baseline and treatment-specific hazard dynamics.
 ---
+## Setup
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/L2R-UET/MAMEX.git
+cd CURE
+pip install -r requirements.txt
+```
+---
 ## Data Preparation 
 ### Download the Datasets
 All datasets used in this work are publicly available via https://www.cbioportal.org/
@@ -34,7 +42,7 @@ All datasets used in this work are publicly available via https://www.cbioportal
 | **METABRIC**  | Breast Cancer (mRNA, CNA, Methylation, Mutation, Clinical) | [METABRIC (Breast Cancer)](https://www.cbioportal.org/study/summary?id=brca_metabric)       |
 | **TCGA-LUAD** | Lung Adenocarcinoma                                        | [TCGA-LUAD Study](https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018) |
 ### Dictionary Structure
-After downloading and extracting, place the datasets in the datasets/ directory following the structure below:
+After downloading and extracting, place the datasets in the ```bash datasets/ ``` directory following the structure below:
 ```bash
 CURE/
  ├── datasets/
@@ -52,13 +60,7 @@ CURE/
      └── ...
 ```
 ---
-## Set up
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/L2R-UET/MAMEX.git
-cd CURE
-pip install -r requirements.txt
-```
+## Training
 Run main training pipeline:
 ```bash
 python src/main.py
