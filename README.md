@@ -2,7 +2,7 @@
 ![The model's architecture](assets/model.png)
 This repository contains the official implementation of the paper:
 > **Counterfactual Understanding via Retrieval-aware Multimodal Modeling for Time-to-Event Survival Prediction**  
-> *Submitted to ECIR 2026 (IR for Good Track, 48th European Conference on Information Retrieval)*
+> *Accepted at the ECIR 2026 (IR for Good Track, 48th European Conference on Information Retrieval)*
 ---
 ## Table of Contents
 - [Overview](#overview)
